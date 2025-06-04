@@ -61,7 +61,10 @@ const NavBar = () => {
                 <Link to="/requests">Requests</Link>
               </li>
               <li>
-                <a onClick={handleLogout}>Logout</a>
+                <Link to="/premium">Premium</Link>
+              </li>
+              <li>
+                <Link onClick={handleLogout}>Logout</Link>
               </li>
             </ul>
           </div>
